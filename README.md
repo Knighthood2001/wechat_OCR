@@ -1,4 +1,5 @@
-[可以看这篇文章](https://mp.weixin.qq.com/s/RESVdGFia9pgnEB3M6pcIg)
+**[公众号文章](https://mp.weixin.qq.com/s/RESVdGFia9pgnEB3M6pcIg)**
+**[CSDN文章](https://blog.csdn.net/knighthood2001/article/details/138465873)**
 # 前言
 ## 项目功能
 - 通过截图软件进行截图后，通过按下`Ctrl+C`后，实现了图片提取文字，并将文字复制到剪切板中，大家通过`Ctrl+V`即可粘贴。
