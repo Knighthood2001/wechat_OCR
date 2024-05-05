@@ -11,6 +11,7 @@
 ## 初始项目架构
 下载项目打开后，项目架构如下：
 
+
 ![img.png](README_picture/img.png)
 其中
 
@@ -101,11 +102,5 @@ save_text(json_file, save_file, mode=2)
 
 **希望大家可以多多关注一下我的公众号，对这个项目的免费讲解，我会更新在微信公众号中，绝对不会让你失望。**
 
-<div style="display: flex;">
-    <div style="flex: 50%; padding: 5px;">
-        <img src="README_picture/微信.jpg" alt="微信" style="width: 100%;">
-    </div>
-    <div style="flex: 50%; padding: 5px;">
-        <img src="README_picture/公众号.jpg" alt="公众号" style="width: 100%;">
-    </div>
-</div>
+![微信](README_picture/微信.png)
+![公众号](README_picture/公众号.png)
