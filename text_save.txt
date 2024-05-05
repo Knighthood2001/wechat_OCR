@@ -1,0 +1,11 @@
+0asS
+# 检查 Esc 键是否被按下
+if win32api.GetAsyncKeyState(win32con.VK_ESCAPE):
+esc_pressed = True
+#关闭微信0CR
+ocr_manager.KillWeChat0CR()
+print("Esc 键被按下，准备退出...")
+time.sleep(0.1) #在此处可以执行其他任务
+KeyboardInterrupt:
+nt("手动中断")
+程序结束")

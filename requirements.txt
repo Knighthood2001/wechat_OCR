@@ -1,0 +1,6 @@
+clipboard==0.0.4
+pillow==10.3.0
+protobuf==3.20.3
+pyperclip==1.8.2
+pywin32==306
+wechat-ocr==0.0.3
