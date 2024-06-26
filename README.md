@@ -1,6 +1,9 @@
 **[公众号文章](https://mp.weixin.qq.com/s/RESVdGFia9pgnEB3M6pcIg)**
 
 **[CSDN文章](https://blog.csdn.net/knighthood2001/article/details/138465873)**
+# 最新更新
+如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如：
+G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat\[3.9.11.17]
 # 前言
 ## 项目功能
 - 通过截图软件进行截图后，通过按下`Ctrl+C`后，实现了图片提取文字，并将文字复制到剪切板中，大家通过`Ctrl+V`即可粘贴。
@@ -15,6 +18,7 @@
 下载项目打开后，项目架构如下：
 
 ![img.png](README_picture/img.png)
+
 其中
 
 `mian.py`是项目代码。
