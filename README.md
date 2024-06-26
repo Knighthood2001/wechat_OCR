@@ -2,6 +2,7 @@
 
 **[CSDN文章](https://blog.csdn.net/knighthood2001/article/details/138465873)**
 # 最新更新
+- 20240626
 如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如：
 G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat\[3.9.11.17]
 # 前言
