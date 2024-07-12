@@ -1,11 +1,9 @@
-0asS
-# 检查 Esc 键是否被按下
-if win32api.GetAsyncKeyState(win32con.VK_ESCAPE):
-esc_pressed = True
-#关闭微信0CR
-ocr_manager.KillWeChat0CR()
-print("Esc 键被按下，准备退出...")
-time.sleep(0.1) #在此处可以执行其他任务
-KeyboardInterrupt:
-nt("手动中断")
-程序结束")
+select_line =r"{}".format(select_line.strip())
+# print(select line)
+return select_line
+name-- ==
+' main  ':
+# TOD0:创建对应文件夹
+if not os.path.exists("img"): # 自动创建img文件夹，其中存放剪切板的图片
+os.makedirs("img")
+if not os.path.exists("ison"): #自动创建ison文件夹，其中存放剪切板的图片文字识别后的ison文件
