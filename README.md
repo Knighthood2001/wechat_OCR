@@ -1,11 +1,10 @@
-**[公众号文章](https://mp.weixin.qq.com/s/RESVdGFia9pgnEB3M6pcIg)**
-
-**[CSDN文章](https://blog.csdn.net/knighthood2001/article/details/138465873)**
 # 最新更新
+- 20240712
+本次更新增加了识别`path.txt`中第二行目录是否存在，如果不存在，说明微信更新了，则去寻找目前存在的目录，并进行更新。这样好处就是，你只需要配置一次，后续微信更新，代码会自动更新。
 - 20240626
 
-如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如：
-G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat\[3.9.11.17]
+如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如： G:\applicationsoftware\WeChat[3.9.10.19] 更改为G:\applicationsoftware\WeChat[3.9.11.17]
+
 # 前言
 ## 项目功能
 - 通过截图软件进行截图后，通过按下`Ctrl+C`后，实现了图片提取文字，并将文字复制到剪切板中，大家通过`Ctrl+V`即可粘贴。
@@ -19,8 +18,8 @@ G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat
 ## 初始项目架构
 下载项目打开后，项目架构如下：
 
-![img.png](README_picture/img.png)
 
+![img.png](README_picture/img.png)
 其中
 
 `mian.py`是项目代码。
@@ -110,11 +109,5 @@ save_text(json_file, save_file, mode=2)
 
 **希望大家可以多多关注一下我的公众号，对这个项目的免费讲解，我会更新在微信公众号中，绝对不会让你失望。**
 
-<div style="display: flex;">
-    <div style="flex: 50%; padding: 5px;">
-        <img src="README_picture/微信.jpg" alt="微信" style="width: 100%;">
-    </div>
-    <div style="flex: 50%; padding: 5px;">
-        <img src="README_picture/公众号.jpg" alt="公众号" style="width: 100%;">
-    </div>
-</div>
+![微信](README_picture/微信.png)
+![公众号](README_picture/公众号.png)

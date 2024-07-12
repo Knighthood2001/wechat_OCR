@@ -7,6 +7,7 @@ import pyperclip
 import win32api
 import win32con
 
+from updata_path import update_path
 # 实现保存剪切板图片
 def save_clipboard_pic(save_path):
     try:
@@ -17,6 +18,7 @@ def save_clipboard_pic(save_path):
     except AttributeError:
         print("剪切板中不是图片")
         return False
+
 
 def ocr_result_callback(img_path: str, results: dict):
     result_file = os.path.join("json", os.path.basename(img_path) + ".json")  # json\01.png.json，这里是包含文件夹名称
@@ -92,6 +94,11 @@ if __name__ == '__main__':
     if not os.path.exists("json"):  # 自动创建json文件夹，其中存放剪切板的图片文字识别后的json文件
         os.makedirs("json")
     path = "path.txt"
+    if not os.path.exists(path):
+        with open(path, 'w'):
+            pass
+    # TODO:更新path.txt第二行内容
+    update_path()
     # TODO：读取文件路径
     wechat_ocr_dir = read_path(path, line=1)
     wechat_dir = read_path(path, line=2)
@@ -106,6 +113,8 @@ if __name__ == '__main__':
     # 启动ocr服务
     ocr_manager.StartWeChatOCR()
 
+    # print("\033[31m本软件来自公众号：认知up吧。\033[0m", "\033[34m软件免费，请勿上当\033[0m")
+    print("本软件来自公众号：认知up吧。\n软件免费，请勿上当\n")
 
     # 监视Ctrl+C 和 Esc 键
     ctrl_c_pressed = False
