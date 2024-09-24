@@ -1,5 +1,6 @@
 import os
 import re
+import time
 from pathlib import Path
 
 def get_updata_path(initial_path):
@@ -21,20 +22,44 @@ def get_updata_path(initial_path):
     else:
         return None
 
+# def update_path():
+#     # 打开文件并读取第二行内容
+#     with open('path.txt', 'r') as file:
+#         lines = file.readlines()
+#         if len(lines) < 2:  # 检查文件是否至少有两行
+#             raise ValueError("文件内容不足两行，请检查路径")
+#         if len(lines) == 2:
+#             second_line = lines[1].strip()  # 获取第二行并去除首尾空白符
+#             content = get_updata_path(second_line)
+#             if content:
+#                 lines[1] = content + '\n'  # 注意要添加换行符
+#                 # 将修改后的内容写回文件
+#                 with open("path.txt", 'w') as file:
+#                     file.writelines(lines)
+#             else:
+#                 return None
+
 def update_path():
-    # 打开文件并读取第二行内容
-    with open('path.txt', 'r') as file:
-        lines = file.readlines()
-        if len(lines) == 2:
-            second_line = lines[1].strip()  # 获取第二行并去除首尾空白符
-            content = get_updata_path(second_line)
-            if content:
-                lines[1] = content + '\n'  # 注意要添加换行符
-                # 将修改后的内容写回文件
-                with open("path.txt", 'w') as file:
-                    file.writelines(lines)
-            else:
-                return None
+    try:
+        # 打开文件并读取第二行内容
+        with open('path.txt', 'r') as file:
+            lines = file.readlines()
+            if len(lines) < 2:  # 检查文件是否至少有两行
+                raise ValueError("文件内容不足两行，请检查路径")
+            if len(lines) == 2:
+                second_line = lines[1].strip()  # 获取第二行并去除首尾空白符
+                content = get_updata_path(second_line)
+                if content:
+                    lines[1] = content + '\n'  # 注意要添加换行符
+                    # 将修改后的内容写回文件
+                    with open("path.txt", 'w') as file:
+                        file.writelines(lines)
+                else:
+                    return None
+    except ValueError as e:
+        print(e)
+        time.sleep(1)  # 暂停1秒
+        raise  # 重新抛出异常，让异常继续传播
 
 if __name__ == "__main__":
     update_path()

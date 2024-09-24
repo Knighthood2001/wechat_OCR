@@ -2,120 +2,68 @@
   "taskId": 1,
   "ocrResult": [
     {
-      "text": "select_line =r\"{}\".format(select_line.strip())",
+      "text": "ocr_result_callback(img_path: str, results: dict):",
       "location": {
-        "left": 62.9625,
-        "top": 13.6875,
-        "right": 532.9,
-        "bottom": 31.9375
+        "left": 6.2,
+        "top": 28.674994,
+        "right": 505.2999,
+        "bottom": 48.04999
       },
       "pos": {
-        "x": 62.9625,
-        "y": 13.6875
+        "x": 6.2,
+        "y": 28.674994
       }
     },
     {
-      "text": "# print(select line)",
+      "text": "result_file = os.path.join(\"json\", os.path.basename(img_path)+ \".json\")",
       "location": {
-        "left": 63.87499,
-        "top": 42.887493,
-        "right": 261.88745,
-        "bottom": 58.399994
+        "left": 6.2,
+        "top": 55.8,
+        "right": 723.07495,
+        "bottom": 74.399994
       },
       "pos": {
-        "x": 63.87499,
-        "y": 42.887493
+        "x": 6.2,
+        "y": 55.8
       }
     },
     {
-      "text": "return select_line",
+      "text": "print(f\"识别成功,img_path: {img_path}, result_file: {result_file}\")",
       "location": {
-        "left": 63.875,
-        "top": 69.35,
-        "right": 245.46251,
-        "bottom": 85.775
+        "left": 6.2,
+        "top": 83.7,
+        "right": 665.7249,
+        "bottom": 102.299995
       },
       "pos": {
-        "x": 63.875,
-        "y": 69.35
+        "x": 6.2,
+        "y": 83.7
       }
     },
     {
-      "text": "name-- ==",
+      "text": "with open(result_file,'w',encoding='utf-8') as f:",
       "location": {
-        "left": 31.634623,
-        "top": 124.16884,
-        "right": 135.51749,
-        "bottom": 146.50543
+        "left": 6.2,
+        "top": 111.6,
+        "right": 516.14996,
+        "bottom": 128.65
       },
       "pos": {
-        "x": 31.634623,
-        "y": 128.18843
+        "x": 6.2,
+        "y": 111.6
       }
     },
     {
-      "text": "' main  ':",
+      "text": "f.write(json.dumps(results, ensure_ascii=False, indent=2))",
       "location": {
-        "left": 135.96251,
-        "top": 124.100006,
-        "right": 241.8125,
-        "bottom": 145.08751
+        "left": 45.716488,
+        "top": 139.48622,
+        "right": 624.6593,
+        "bottom": 156.41707
       },
       "pos": {
-        "x": 135.96251,
-        "y": 124.100006
-      }
-    },
-    {
-      "text": "# TOD0:创建对应文件夹",
-      "location": {
-        "left": 22.8125,
-        "top": 151.47499,
-        "right": 211.69998,
-        "bottom": 168.81248
-      },
-      "pos": {
-        "x": 22.8125,
-        "y": 151.47499
-      }
-    },
-    {
-      "text": "if not os.path.exists(\"img\"): # 自动创建img文件夹，其中存放剪切板的图片",
-      "location": {
-        "left": 23.725,
-        "top": 177.9375,
-        "right": 679.8124,
-        "bottom": 196.1875
-      },
-      "pos": {
-        "x": 23.725,
-        "y": 177.9375
-      }
-    },
-    {
-      "text": "os.makedirs(\"img\")",
-      "location": {
-        "left": 60.225002,
-        "top": 207.13751,
-        "right": 243.63751,
-        "bottom": 223.5625
-      },
-      "pos": {
-        "x": 60.225002,
-        "y": 207.13751
-      }
-    },
-    {
-      "text": "if not os.path.exists(\"ison\"): #自动创建ison文件夹，其中存放剪切板的图片文字识别后的ison文件",
-      "location": {
-        "left": 23.716898,
-        "top": 232.68753,
-        "right": 859.58417,
-        "bottom": 250.03517
-      },
-      "pos": {
-        "x": 23.735165,
-        "y": 232.68753
+        "x": 45.716488,
+        "y": 140.2803
       }
     }
   ]

@@ -28,7 +28,6 @@ def ocr_result_callback(img_path: str, results: dict):
 
 # 编写具体代码时，这个函数需要看情况封装
 def save_to_json(img_file):
-    # print(111)
     ocr_manager = OcrManager(wechat_dir)
     # 设置WeChatOcr目录
     ocr_manager.SetExePath(wechat_ocr_dir)
@@ -113,7 +112,6 @@ if __name__ == '__main__':
     # 启动ocr服务
     ocr_manager.StartWeChatOCR()
 
-    # print("\033[31m本软件来自公众号：认知up吧。\033[0m", "\033[34m软件免费，请勿上当\033[0m")
     print("本软件来自公众号：认知up吧。\n软件免费，请勿上当\n")
 
     # 监视Ctrl+C 和 Esc 键
