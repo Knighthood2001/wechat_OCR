@@ -21,6 +21,7 @@
 
 
 ![img.png](README_picture/img.png)
+
 其中
 
 `mian.py`是项目代码。
