@@ -1,69 +1,303 @@
 {
-  "taskId": 1,
+  "taskId": 2,
   "ocrResult": [
     {
-      "text": "ocr_result_callback(img_path: str, results: dict):",
+      "text": "19",
       "location": {
-        "left": 6.2,
-        "top": 28.674994,
-        "right": 505.2999,
-        "bottom": 48.04999
+        "left": 45.01875,
+        "top": 3.2156248,
+        "right": 63.240623,
+        "bottom": 16.078125
       },
       "pos": {
-        "x": 6.2,
-        "y": 28.674994
+        "x": 45.01875,
+        "y": 3.2156248
       }
     },
     {
-      "text": "result_file = os.path.join(\"json\", os.path.basename(img_path)+ \".json\")",
+      "text": "o",
       "location": {
-        "left": 6.2,
-        "top": 55.8,
-        "right": 723.07495,
-        "bottom": 74.399994
+        "left": 39.082203,
+        "top": 15.336058,
+        "right": 69.259605,
+        "bottom": 45.348553
       },
       "pos": {
-        "x": 6.2,
-        "y": 55.8
+        "x": 39.082203,
+        "y": 27.53894
       }
     },
     {
-      "text": "print(f\"识别成功,img_path: {img_path}, result_file: {result_file}\")",
+      "text": "21",
       "location": {
-        "left": 6.2,
-        "top": 83.7,
-        "right": 665.7249,
-        "bottom": 102.299995
+        "left": 43.946873,
+        "top": 45.01875,
+        "right": 62.168747,
+        "bottom": 69.671875
       },
       "pos": {
-        "x": 6.2,
-        "y": 83.7
+        "x": 43.946873,
+        "y": 45.01875
       }
     },
     {
-      "text": "with open(result_file,'w',encoding='utf-8') as f:",
+      "text": "25",
       "location": {
-        "left": 6.2,
-        "top": 111.6,
-        "right": 516.14996,
-        "bottom": 128.65
+        "left": 42.380287,
+        "top": 66.12644,
+        "right": 65.79663,
+        "bottom": 89.70769
       },
       "pos": {
-        "x": 6.2,
-        "y": 111.6
+        "x": 42.380287,
+        "y": 75.36105
       }
     },
     {
-      "text": "f.write(json.dumps(results, ensure_ascii=False, indent=2))",
+      "text": "23",
       "location": {
-        "left": 45.716488,
-        "top": 139.48622,
-        "right": 624.6593,
-        "bottom": 156.41707
+        "left": 39.659367,
+        "top": 112.65408,
+        "right": 65.38437,
+        "bottom": 139.23657
       },
       "pos": {
-        "x": 45.716488,
-        "y": 140.2803
+        "x": 46.41218,
+        "y": 112.65408
+      }
+    },
+    {
+      "text": "寸日只日",
+      "location": {
+        "left": 41.803123,
+        "top": 133.98438,
+        "right": 65.38438,
+        "bottom": 235.8125
+      },
+      "pos": {
+        "x": 41.803123,
+        "y": 133.98438
+      }
+    },
+    {
+      "text": "28",
+      "location": {
+        "left": 40.838448,
+        "top": 226.70157,
+        "right": 66.13469,
+        "bottom": 252.85532
+      },
+      "pos": {
+        "x": 40.838448,
+        "y": 232.91844
+      }
+    },
+    {
+      "text": "29",
+      "location": {
+        "left": 45.01875,
+        "top": 278.6875,
+        "right": 62.168747,
+        "bottom": 290.47812
+      },
+      "pos": {
+        "x": 45.01875,
+        "y": 278.6875
+      }
+    },
+    {
+      "text": "30",
+      "location": {
+        "left": 42.875,
+        "top": 321.5625,
+        "right": 63.240623,
+        "bottom": 337.64062
+      },
+      "pos": {
+        "x": 42.875,
+        "y": 321.5625
+      }
+    },
+    {
+      "text": "print(\"剪切板中不是图片\"",
+      "location": {
+        "left": 171.4304,
+        "top": 0.01497654,
+        "right": 397.716,
+        "bottom": 17.514318
+      },
+      "pos": {
+        "x": 171.4304,
+        "y": 1.5536016
+      }
+    },
+    {
+      "text": "return False",
+      "location": {
+        "left": 171.49997,
+        "top": 24.65312,
+        "right": 288.33435,
+        "bottom": 39.65937
+      },
+      "pos": {
+        "x": 171.49997,
+        "y": 24.65312
+      }
+    },
+    {
+      "text": "代码解释|函数注释|调优建议|行间注释|生成单测|添加日志|解释代码|生成文档|修复代码|生成测试|代码评审|关闭|宁 v",
+      "location": {
+        "left": 95.36916,
+        "top": 89.00456,
+        "right": 964.7122,
+        "bottom": 110.47249
+      },
+      "pos": {
+        "x": 95.41895,
+        "y": 89.00456
+      }
+    },
+    {
+      "text": "def ocr result callback(img path: str, results: dict):",
+      "location": {
+        "left": 96.46875,
+        "top": 114.69062,
+        "right": 618.47186,
+        "bottom": 132.91249
+      },
+      "pos": {
+        "x": 96.46875,
+        "y": 114.69062
+      }
+    },
+    {
+      "text": "result file = os.path.join(\"json\", os.path.basename(img, path)+\".json\")# json\\01.png.json",
+      "location": {
+        "left": 132.91249,
+        "top": 137.2,
+        "right": 1021.4968,
+        "bottom": 156.49374
+      },
+      "pos": {
+        "x": 132.91249,
+        "y": 137.2
+      }
+    },
+    {
+      "text": "print(f\"识别成功,img path: {img path},result file: {result file}\")",
+      "location": {
+        "left": 131.84062,
+        "top": 160.78125,
+        "right": 783.5406,
+        "bottom": 180.075
+      },
+      "pos": {
+        "x": 131.84062,
+        "y": 160.78125
+      }
+    },
+    {
+      "text": "with open(result file,'w',encoding='utf-8') as f:",
+      "location": {
+        "left": 131.84062,
+        "top": 184.3625,
+        "right": 625.975,
+        "bottom": 203.65625
+      },
+      "pos": {
+        "x": 131.84062,
+        "y": 184.3625
+      }
+    },
+    {
+      "text": "f.write(json.dumps(results, ensure ascii=False, indent=2))",
+      "location": {
+        "left": 169.35625,
+        "top": 210.0875,
+        "right": 728.875,
+        "bottom": 227.23749
+      },
+      "pos": {
+        "x": 169.35625,
+        "y": 210.0875
+      }
+    },
+    {
+      "text": "# 编写具体代码时，这个函数需要看情况封装",
+      "location": {
+        "left": 96.46875,
+        "top": 273.32812,
+        "right": 463.05,
+        "bottom": 293.69376
+      },
+      "pos": {
+        "x": 96.46875,
+        "y": 273.32812
+      }
+    },
+    {
+      "text": "代码解释|函数注释|调优建议|行间注释|生成单测|添加日志|解释代码|生成文档|修复代码|生成测试|代码评审|关闭",
+      "location": {
+        "left": 96.46875,
+        "top": 300.125,
+        "right": 916.4531,
+        "bottom": 315.13126
+      },
+      "pos": {
+        "x": 96.46875,
+        "y": 300.125
+      }
+    },
+    {
+      "text": "def save to json(img file):",
+      "location": {
+        "left": 97.54063,
+        "top": 321.5625,
+        "right": 356.93436,
+        "bottom": 337.64062
+      },
+      "pos": {
+        "x": 97.54063,
+        "y": 321.5625
+      }
+    },
+    {
+      "text": "ocr manager =0crManager(wechat dir)",
+      "location": {
+        "left": 133.91533,
+        "top": 343.93027,
+        "right": 478.1426,
+        "bottom": 362.63226
+      },
+      "pos": {
+        "x": 133.91533,
+        "y": 346.46045
+      }
+    },
+    {
+      "text": "#设置Wechatocr月录",
+      "location": {
+        "left": 132.91249,
+        "top": 366.58124,
+        "right": 311.91562,
+        "bottom": 381.5875
+      },
+      "pos": {
+        "x": 132.91249,
+        "y": 366.58124
+      }
+    },
+    {
+      "text": "终调",
+      "location": {
+        "left": 247.60312,
+        "top": 394.44998,
+        "right": 273.32812,
+        "bottom": 405.16873
+      },
+      "pos": {
+        "x": 247.60312,
+        "y": 394.44998
       }
     }
   ]

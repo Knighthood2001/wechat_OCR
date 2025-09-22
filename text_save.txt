@@ -1,5 +1,0 @@
-ocr_result_callback(img_path: str, results: dict):
-result_file = os.path.join("json", os.path.basename(img_path)+ ".json")
-print(f"识别成功,img_path: {img_path}, result_file: {result_file}")
-with open(result_file,'w',encoding='utf-8') as f:
-f.write(json.dumps(results, ensure_ascii=False, indent=2))
