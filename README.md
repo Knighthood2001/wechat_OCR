@@ -8,8 +8,7 @@
 
 - **20250922**
 
-此次微信更新到了4.1.0.34，可以发现，文件的相关路径，变化了。
-从以前的
+此次微信更新到了4.1.0.34，可以发现，文件的相关路径，变化了。从以前的
 ```bash
 G:\applicationsoftware\WeChat\[3.9.11.17]
 ```
@@ -24,12 +23,13 @@ G:\applicationsoftware\Weixin\4.1.0.34
 具体可以看看
 [**https://github.com/Knighthood2001/wechat_ocr_pkg**](https://github.com/Knighthood2001/wechat_ocr_pkg)
 
-我将wechat-ocr0.0.4版本放到dist中了，需要安装一下。
+我将`wechat-ocr0.0.4`版本放到dist中了，需要安装一下。
 
 ```shell
 pip install dist/wechat_ocr0.0.4.tar.gz
 ```
 
+**总之，如果你的问题是找不到mmmojo.dll这个问题，你可以试试，使用wechat-ocr0.0.4版本。**
 
 # 前言
 ## 项目功能
@@ -132,7 +132,16 @@ save_text(json_file, save_file, mode=2)
 # 最后
 经过以上的讲解，我觉得大家对于这个项目的配置已经运行应该是没有问题了。
 
+以下是我的微信以及微信公众号
+
 <div align="center">
     <img src="README_picture/微信.jpg" width="200" alt="微信二维码" style="margin-right: 30px;">
     <img src="README_picture/公众号.jpg" width="200" alt="公众号二维码">
 </div>
+
+# 参考
+
+感谢以下开源项目：
+
+- https://github.com/kanadeblisst00/wechat_ocr
+- https://pypi.org/project/wechat-ocr
