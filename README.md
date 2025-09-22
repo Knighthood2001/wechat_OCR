@@ -21,9 +21,14 @@ G:\applicationsoftware\Weixin\4.1.0.34
 
 因此，如果你运行起来，出现找不到mmmojo.dll的错误，你需要更新代码。
 
+具体可以看看
+[**https://github.com/Knighthood2001/wechat_ocr_pkg**](https://github.com/Knighthood2001/wechat_ocr_pkg)
 
+我将wechat-ocr0.0.4版本放到dist中了，需要安装一下。
 
-
+```shell
+pip install dist/wechat_ocr0.0.4.tar.gz
+```
 
 
 # 前言
