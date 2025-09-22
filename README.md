@@ -1,10 +1,30 @@
 # 最新更新
-- 20240712
+- **20240712**
 
 本次更新增加了识别`path.txt`中第二行目录是否存在，如果不存在，说明微信更新了，则去寻找目前存在的目录，并进行更新。这样好处就是，你只需要配置一次，后续微信更新，代码会自动更新。
-- 20240626
+- **20240626**
 
-如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如： G:\applicationsoftware\WeChat[3.9.10.19] 更改为G:\applicationsoftware\WeChat[3.9.11.17]
+如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如： G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat\[3.9.11.17]
+
+- **20250922**
+
+此次微信更新到了4.1.0.34，可以发现，文件的相关路径，变化了。
+从以前的
+```bash
+G:\applicationsoftware\WeChat\[3.9.11.17]
+```
+变成了
+```bash
+G:\applicationsoftware\Weixin\4.1.0.34
+```
+然后，在我的电脑中，`mmmojo.dll`已经没有了，转而变成了`mmmojo_64.dll`。
+
+因此，如果你运行起来，出现找不到mmmojo.dll的错误，你需要更新代码。
+
+
+
+
+
 
 # 前言
 ## 项目功能

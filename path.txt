@@ -1,2 +1,2 @@
 C:\Users\Lenovo\AppData\Roaming\Tencent\WeChat\XPlugin\Plugins\WeChatOCR\7079\extracted\WeChatOCR.exe
-G:\applicationsoftware\\Weixin\4.1.0.34
+G:\applicationsoftware\Weixin\4.1.0.34
