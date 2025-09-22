@@ -132,9 +132,7 @@ save_text(json_file, save_file, mode=2)
 # 最后
 经过以上的讲解，我觉得大家对于这个项目的配置已经运行应该是没有问题了。
 
-如有问题，欢迎＋v：TheOnewbd和我交流。
-
-**希望大家可以多多关注一下我的公众号，对这个项目的免费讲解，我会更新在微信公众号中，绝对不会让你失望。**
-
-![微信](README_picture/微信.png)
-![公众号](README_picture/公众号.png)
+<div align="center">
+    <img src="README_picture/微信.jpg" width="200" alt="微信二维码" style="margin-right: 30px;">
+    <img src="README_picture/公众号.jpg" width="200" alt="公众号二维码">
+</div>
