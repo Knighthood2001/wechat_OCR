@@ -31,6 +31,10 @@ pip install dist/wechat_ocr0.0.4.tar.gz
 
 **总之，如果你的问题是找不到mmmojo.dll这个问题，你可以试试，使用wechat-ocr0.0.4版本。**
 
+- **20251105**
+
+更新了相关代码，然后发布了微信OCR2.0.0版本，文件大小为10mb，见[发行版本](https://github.com/Knighthood2001/wechat_OCR/releases/tag/v2.0.0)
+
 # 前言
 ## 项目功能
 - 通过截图软件进行截图后，通过按下`Ctrl+C`后，实现了图片提取文字，并将文字复制到剪切板中，大家通过`Ctrl+V`即可粘贴。
