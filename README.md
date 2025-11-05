@@ -1,10 +1,7 @@
 # 最新更新
-- **20240712**
+- **20251105**
 
-本次更新增加了识别`path.txt`中第二行目录是否存在，如果不存在，说明微信更新了，则去寻找目前存在的目录，并进行更新。这样好处就是，你只需要配置一次，后续微信更新，代码会自动更新。
-- **20240626**
-
-如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如： G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat\[3.9.11.17]
+更新了相关代码，然后发布了微信OCR2.0.0版本，文件大小为10mb，见[发行版本](https://github.com/Knighthood2001/wechat_OCR/releases/tag/v2.0.0)
 
 - **20250922**
 
@@ -31,9 +28,15 @@ pip install dist/wechat_ocr0.0.4.tar.gz
 
 **总之，如果你的问题是找不到mmmojo.dll这个问题，你可以试试，使用wechat-ocr0.0.4版本。**
 
-- **20251105**
 
-更新了相关代码，然后发布了微信OCR2.0.0版本，文件大小为10mb，见[发行版本](https://github.com/Knighthood2001/wechat_OCR/releases/tag/v2.0.0)
+- **20240712**
+
+本次更新增加了识别`path.txt`中第二行目录是否存在，如果不存在，说明微信更新了，则去寻找目前存在的目录，并进行更新。这样好处就是，你只需要配置一次，后续微信更新，代码会自动更新。
+- **20240626**
+
+如果你的微信更新过，你需要在path.txt中将微信版本进行更改，否则软件运行会闪退。例如： G:\applicationsoftware\WeChat\[3.9.10.19] 更改为G:\applicationsoftware\WeChat\[3.9.11.17]
+
+
 
 # 前言
 ## 项目功能
