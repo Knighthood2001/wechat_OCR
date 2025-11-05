@@ -10,7 +10,9 @@ def get_updata_path(initial_path):
 
         for item in os.listdir(parent_directory):
             # 定义正则表达式模式
-            pattern = r'^\[(.*)\]$'
+            # pattern = r'^\[(.*)\]$'
+            # 新版微信的版本号是类似于 1.0.0.0 的字符串
+            pattern = r'^\d+\.\d+\.\d+\.\d+$'
             # 使用 re.match 进行匹配
             match = re.match(pattern, item)
             # 判断是否匹配成功

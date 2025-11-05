@@ -1,0 +1,4 @@
+识别成功，img path:G:\Desktoplpythondemo\github上传项目lwechat 0cRl
+--识别内容
+#检查 ESc 键是否被按下
+if win32api.GetAsynckeystate(win32con.VK ESCAPE):
